@@ -10,11 +10,11 @@ Authors: Jess, Alec, Albi, Karim
 
 ### (2) Data Analysis
 - What green skills are needed?
-	o What is the composition of skills in green jobs?
-	o What skills are relatively more important to green jobs?
+- What is the composition of skills in green jobs?
+	* What skills are relatively more important to green jobs?
 - What is the green skill gap?
-	o How many people with these green skills do we have?
-	o How many people with these green skills do we need?
+	* How many people with these green skills do we have?
+	* How many people with these green skills do we need?
 - Where are these green skills needed?
 
 ### (2) Data Tool
