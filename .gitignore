@@ -1,6 +1,7 @@
 # Custom
 
-_data
+_data/Light*
+_data/merged*
 .~*
 
 # Byte-compiled / optimized / DLL files
