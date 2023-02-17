@@ -17,5 +17,5 @@ Authors: Jess, Alec, Albi, Karim
 	* How many people with these green skills do we need?
 - Where are these green skills needed?
 
-### (2) Data Tool
+### (3) Data Tool
 - How can people with these green skills most effectively be deployed?
