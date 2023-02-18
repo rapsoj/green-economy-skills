@@ -21,7 +21,7 @@ def load_lightcast_data(path: Optional[str] = None) -> pd.DataFrame:
     if path is None:
         path = Path("_data") / "Lightcast, UK Postings Sample.csv"
 
-    lightcast_df = pd.read_csv(path, index_col=0, dtype=object)
+    lightcast_df = pd.read_csv(path, index_col=0, low_memory=False)
 
     # drop na indices
     lightcast_df = lightcast_df[~lightcast_df.index.isna()]
@@ -83,15 +83,15 @@ def get_merged_data(load_new: Optional[bool] = False) -> pd.DataFrame:
     lc_data = lc_data[~lc_data["SOC_4"].isna()]
     greents_data = load_greentimeshare()
     green_category = load_green_category()
-    joint_data = lc_data.merge(greents_data, left_on="SOC_4", right_on="SOC 2010 code", how="inner")
+    joint_data = lc_data.merge(greents_data, left_on="SOC_4", right_on="SOC 2010 code", how="left")
     joint_data = joint_data.merge(
         green_category,
         left_on="SOC_4",
         right_on="SOC2010 4-digit",
-        how="inner"
+        how="left"
     )
     del joint_data["SOC2010 Unit Group Titles"]
-    del joint_data["Green Category"]
+    del joint_data["SOC2010 4-digit"]
     del joint_data["SOC 2010 code"]
     del joint_data["SOC 2010 description"]
 
@@ -118,9 +118,9 @@ def get_skills_key(load_new: Optional[bool] = False) -> pd.DataFrame:
 
     lightcast_df = load_lightcast_data()
 
-    hard_df = get_unique_skills(lightcast_df["SPECIALIZED_SKILLS_NAME"], "specialized")
-    soft_df = get_unique_skills(lightcast_df["COMMON_SKILLS_NAME"], "common")
-    coding_df = get_unique_skills(lightcast_df["SOFTWARE_SKILLS_NAME"], "software")
+    hard_df = get_unique_skills(lightcast_df["SPECIALIZED_SKILLS_NAME"], "SPECIALIZED_SKILLS_NAME")
+    soft_df = get_unique_skills(lightcast_df["COMMON_SKILLS_NAME"], "COMMON_SKILLS_NAME")
+    coding_df = get_unique_skills(lightcast_df["SOFTWARE_SKILLS_NAME"], "SOFTWARE_SKILLS_NAME")
 
     skills_df = pd.concat([hard_df, soft_df, coding_df])
 
