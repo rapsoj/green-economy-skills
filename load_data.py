@@ -118,9 +118,9 @@ def get_skills_key(load_new: Optional[bool] = False) -> pd.DataFrame:
 
     lightcast_df = load_lightcast_data()
 
-    hard_df = get_unique_skills(lightcast_df["SPECIALIZED_SKILLS_NAME"], "specialized")
-    soft_df = get_unique_skills(lightcast_df["COMMON_SKILLS_NAME"], "common")
-    coding_df = get_unique_skills(lightcast_df["SOFTWARE_SKILLS_NAME"], "software")
+    hard_df = get_unique_skills(lightcast_df["SPECIALIZED_SKILLS_NAME"], "SPECIALIZED_SKILLS_NAME")
+    soft_df = get_unique_skills(lightcast_df["COMMON_SKILLS_NAME"], "COMMON_SKILLS_NAME")
+    coding_df = get_unique_skills(lightcast_df["SOFTWARE_SKILLS_NAME"], "SOFTWARE_SKILLS_NAME")
 
     skills_df = pd.concat([hard_df, soft_df, coding_df])
 
