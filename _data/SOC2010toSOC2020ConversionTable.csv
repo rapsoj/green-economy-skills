@@ -1,0 +1,128 @@
+,SOC2010 Code,SOC2010 Title,SOC2020 Code,SOC2020 Title
+0,3511,  Air traffic controllers,3511,  Aircraft pilots and air traffic controllers
+1,3512,  Aircraft pilots and flight engineers,3511,  Aircraft pilots and air traffic controllers
+2,5211,  Smiths and forge workers,5212,"  Metal plate workers, smiths, moulders and related occupations"
+3,5212,"  Moulders, core makers and die casters",5212,"  Metal plate workers, smiths, moulders and related occupations"
+4,5214,"  Metal plate workers, and riveters",5212,"  Metal plate workers, smiths, moulders and related occupations"
+5,5411,  Weavers and knitters,5419,"  Textiles, garments and related trades n.e.c."
+6,5419,"  Textiles, garments and related trades n.e.c.",5419,"  Textiles, garments and related trades n.e.c."
+7,8112,  Glass and ceramics process operatives,8119,  Process operatives n.e.c.
+8,8115,  Rubber process operatives,8119,  Process operatives n.e.c.
+9,8119,  Process operatives n.e.c.,8119,  Process operatives n.e.c.
+10,8117,  Metal making and treating process operatives,8115,  Metal making and treating process operatives
+11,8118,  Electroplaters,8115,  Metal making and treating process operatives
+12,8122,  Coal mine operatives,8132,  Mining and quarry workers and related operatives
+13,8123,  Quarry workers and related operatives,8132,  Mining and quarry workers and related operatives
+14,8223,  Agricultural machinery drivers,8229,  Mobile machine drivers and operatives n.e.c.
+15,8229,  Mobile machine drivers and operatives n.e.c.,8229,  Mobile machine drivers and operatives n.e.c.
+16,3213,  Paramedics,2255,  Paramedics
+17,3421,  Graphic designers,2142,  Graphic and multimedia designers
+18,3534,  Finance and investment analysts and advisers,2422,  Finance and investment analysts and advisers
+19,3535,  Taxation experts,2423,  Taxation experts
+20,3545,  Sales accounts and business development managers (part),2432,  Marketing and commercial managers
+21,6131,  Veterinary nurses,3240,  Veterinary nurses
+22,6125,  Higher level teaching assistants,3231,  Higher level teaching assistants
+23,7125,  Visual merchandisers and related occupations (part),3553,  Merchandisers
+24,1136, Information technology and telecommunications directors,1137, Information technology directors
+25,213 ,Information technology and telecommunications professionals,213 ,Information technology professionals
+26,2134, IT project and programme managers,2131, IT project managers
+27,2133, IT specialist managers,2132, IT managers
+28,2139, Information technology and telecommunications professionals n.e.c,2135, Cyber security professionals
+29,2139, Information technology and telecommunications professionals n.e.c,2136, IT quality and testing professionals
+30,2139, Information technology and telecommunications professionals n.e.c,2137, IT network professionals
+31,2139, Information technology and telecommunications professionals n.e.c,2139, Information technology professionals n.e.c.
+32,2137, Web design and development professionals,2141, Web design professionals
+33,3131, IT operations technicians,3131, IT operations technicians
+34,3131, IT operations technicians,3133, Database administrators and web content technicians¹
+35,3421, Graphic designers,2142, Graphic and multimedia designers
+36,3563, Vocational and industrial trainers and instructors,3573, Information technology trainers
+37,1139, Functional managers and directors n.e.c.,1135, Charitable organisation managers and directors
+38,1139, Functional managers and directors n.e.c.,1139, Functional managers and directors n.e.c.
+39,116 ,Managers and directors in transport and logistics,114 ,"Directors in logistics, warehousing and transport"
+40,116 ,Managers and directors in transport and logistics,124 ,"Managers in logistics, warehousing and transport"
+41,1161, Managers and directors in transport and distribution,1140," Directors in logistics, warehousing and transport"
+42,1161, Managers and directors in transport and distribution,1241, Managers in transport and distribution
+43,1162, Managers and directors in storage and warehousing,1242, Managers in storage and warehousing
+44,1162, Managers and directors in storage and warehousing,1243, Managers in logistics
+45,1259, Managers and proprietors in other services n.e.c.,1233, Early education and childcare services proprietors
+46,1259, Managers and proprietors in other services n.e.c.,1255, Managers and directors in the creative industries
+47,1259, Managers and proprietors in other services n.e.c.,1256, Betting shop and gambling establishment managers
+48,1259, Managers and proprietors in other services n.e.c.,1257, Hire services managers and proprietors
+49,1259, Managers and proprietors in other services n.e.c.,1258, Directors in consultancy services
+50,1259, Managers and proprietors in other services n.e.c.,1259, Managers and proprietors in other services n.e.c.
+51,1221, Hotel and accommodation managers and proprietors,1221, Hotel and accommodation managers and proprietors
+52,1221, Hotel and accommodation managers and proprietors,6250, Bed and breakfast and guest house owners and proprietors
+53,2112, Biological scientists and biochemists,2112, Biological scientists
+54,2112, Biological scientists and biochemists,2113, Biochemists and biomedical scientists
+55,2122, Mechanical engineers,2122, Mechanical engineers
+56,2122, Mechanical engineers,2126, Aerospace engineers
+57,2129, Engineering professionals n.e.c.,2127, Engineering project managers and project engineers
+58,2129, Engineering professionals n.e.c.,2129, Engineering professionals n.e.c.
+59,2119, Natural and social science professionals n.e.c.,2119, Natural and social science professionals n.e.c.
+60,2119, Natural and social science professionals n.e.c.,2162," Other researchers, unspecified discipline"
+61,2211, Medical practitioners,2211, Generalist medical practitioners
+62,2211, Medical practitioners,2212, Specialist medical practitioners
+63,2229, Therapy professionals n.e.c.,2224, Psychotherapists and cognitive behaviour therapists
+64,2229, Therapy professionals n.e.c.,2229, Therapy professionals n.e.c.
+65,2212, Psychologists,2225, Clinical psychologists
+66,2212, Psychologists,2226, Other psychologists
+67,2231, Nurses,2232, Registered community nurses
+68,2231, Nurses,2233, Registered specialist nurses
+69,2231, Nurses,2234, Registered nurse practitioners
+70,2231, Nurses,2235, Registered mental health nurses
+71,2231, Nurses,2236, Registered children’s nurses
+72,2231, Nurses,2237, Other registered nursing professionals
+73,2315, Primary and nursery education teaching professionals,2314, Primary education teaching professionals
+74,2315, Primary and nursery education teaching professionals,2315, Nursery education teaching professionals
+75,2317, Senior professionals of educational establishments,2321, Head teachers and principals
+76,2317, Senior professionals of educational establishments,2322, Education managers
+77,2317, Senior professionals of educational establishments,2329, Other educational professionals n.e.c.
+78,2319, Teaching and other educational professionals n.e.c.,2317, Teachers of English as a foreign language
+79,2319, Teaching and other educational professionals n.e.c.,2319, Teaching professionals n.e.c.
+80,2319, Teaching and other educational professionals n.e.c.,2329, Other educational professionals n.e.c.
+81,2429," Business, research and administrative professionals n.e.c.",2435, Professional/Chartered company secretaries
+82,2429," Business, research and administrative professionals n.e.c.",2439," Business, research and administrative professionals n.e.c."
+83,2449, Welfare professionals n.e.c.,2464, Youth work professionals
+84,2449, Welfare professionals n.e.c.,2469, Welfare professionals n.e.c.
+85,2471," Journalists, newspaper and periodical editors",2491," Newspaper, periodical and broadcast editors"
+86,2471," Journalists, newspaper and periodical editors",2492, Newspaper and periodical broadcast journalists and reporters
+87,3131, IT operations technicians,3133, Database administrators and web content technicians
+88,3131, IT operations technicians,3131, IT operations technicians
+89,3219, Health associate professionals n.e.c.,3214, Complementary health associate professionals
+90,3219, Health associate professionals n.e.c.,3219, Health associate professionals n.e.c.
+91,3422," Product, clothing and related designers",3421, Interior designers
+92,3422," Product, clothing and related designers",3422," Clothing, fashion and accessories designers"
+93,3422," Product, clothing and related designers",3429, Design occupations n.e.c.
+94,3539, Business and related associate professionals n.e.c.,3543, Project support officers
+95,3539, Business and related associate professionals n.e.c.,3544, Data analysts
+96,3539, Business and related associate professionals n.e.c.,3549, Business associate professionals n.e.c.
+97,3545, Sales accounts and business development managers,2432, Marketing and commercial managers
+98,3545, Sales accounts and business development managers,3556, Sales accounts and business development managers
+99,4159, Other administrative occupations n.e.c.,4159, Other administrative occupations n.e.c.
+100,4159, Other administrative occupations n.e.c.,9233, Exam invigilators
+101,4217, Typists and related keyboard occupations,4152, Data entry administrators
+102,4217, Typists and related keyboard occupations,4217, Typists and related keyboard occupations
+103,5249, Electrical and electronic trades n.e.c.,5245, Security system installers and repairers
+104,5249, Electrical and electronic trades n.e.c.,5246, Electrical service and maintenance mechanics and repairers
+105,5249, Electrical and electronic trades n.e.c.,5249, Electrical and electronic trades n.e.c.
+106,5312, Bricklayers and masons,5312, Stonemasons and related trades
+107,5312, Bricklayers and masons,5313, Bricklayers
+108,6121, Nursery nurses and assistants,3232, Early education and childcare practitioners
+109,6121, Nursery nurses and assistants,6111, Early education and childcare assistants
+110,6122, Childminders and related occupations,6114, Childminders
+111,6122, Childminders and related occupations,6116, Nannies and au pairs
+112,7125, Merchandisers and window dressers,3553, Merchandisers
+113,7125, Merchandisers and window dressers,7125, Visual merchandisers and related occupations
+114,7220, Customer service managers and supervisors,4143, Customer service managers
+115,7220, Customer service managers and supervisors,7220, Customer service supervisors
+116,8212, Van drivers,8214, Delivery drivers and couriers
+117,8212, Van drivers,8219, Road transport drivers n.e.c.
+118,9120, Elementary construction occupations,9121, Groundworkers
+119,9120, Elementary construction occupations,9120, Elementary construction occupations nec.
+120,9260, Elementary storage occupations,9251, Elementary storage supervisors
+121,9260, Elementary storage occupations,9252, Warehouse operatives
+122,9260, Elementary storage occupations,9253, Delivery operatives
+123,9260, Elementary storage occupations,9259, Elementary storage occupations n.e.c.
+124,9272, Kitchen and catering assistants (part),9261, Bar and catering supervisors
+125,9274, Bar staff (part),9261, Bar and catering supervisors
+126,9272, Kitchen and catering assistants (part),9266, Coffee shop workers
