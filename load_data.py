@@ -67,6 +67,44 @@ def load_green_category(path: Optional[str] = None) -> pd.DataFrame:
     return green_jobs_df
 
 
+def load_soc_key(path: Optional[str] = None) -> pd.DataFrame:
+    """Function to load the soc_structure.csv file.
+
+    Args:
+        path: Optional[str], override default path "soc_structure.csv"
+
+    Returns:
+        pd.DataFrame, loaded and cleaned data.
+    """
+
+    if path is None:
+        path = Path("_data") / "soc_structure.csv"
+    
+    # Load data
+    soc_df = pd.read_csv(path, skiprows=[1]).dropna(how="all")
+    
+    # Create sub dataframes for each SOC high-level group
+    major_group = soc_df[soc_df["Major Group"].notna()]
+    submajor_group = soc_df[soc_df["Sub-Major Group"].notna()]
+    minor_group = soc_df[soc_df["Minor Group"].notna()]
+    
+    # Create dataframe for all SOC codes
+    data_filled = soc_df.dropna(how="all")
+    cols = ["Major Group", "Sub-Major Group", "Minor Group"]
+    data_filled[cols] = data_filled[cols].fillna(method='ffill')
+    data_filled = data_filled[data_filled["Unit   Group"].notna()].rename(columns={"Unit   Group":"Unit Group"})
+
+    # Join SOC high-level groups to SOC unit group
+    data_filled = data_filled.replace(
+        {"Major Group": major_group.set_index("Major Group").to_dict()["Group Title"]})
+    data_filled = data_filled.replace(
+        {"Sub-Major Group": submajor_group.set_index("Sub-Major Group").to_dict()["Group Title"]})
+    data_filled = data_filled.replace(
+        {"Minor Group": minor_group.set_index("Minor Group").to_dict()["Group Title"]})
+    
+    return data_filled
+
+
 def load_skills_to_jobs(
     path: Optional[str] = None,
     usecols: Optional[list[str]] = None
@@ -88,6 +126,7 @@ def load_skills_to_jobs(
     if usecols is not None:
         return pd.read_csv(path, usecols=usecols)
     return pd.read_csv(path)
+
 
 def get_merged_data(
     load_new: Optional[bool] = False,
