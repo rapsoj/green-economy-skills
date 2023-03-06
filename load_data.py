@@ -221,7 +221,7 @@ def get_annotated_skills(load_new: Optional[bool] = False) -> pd.DataFrame:
     """
     annotated_skills_path = Path("_data") / "annotated_skills.csv"
     if not load_new and annotated_skills_path.exists():
-        return pd.read_csv(annotated_skills_path, index=0)
+        return pd.read_csv(annotated_skills_path, index_col=0)
     print("Loading data...")
     start = t.time()
     skills_key = get_skills_key()
